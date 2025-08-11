@@ -13,6 +13,7 @@ const JavaProgramming = () => {
   const syllabusItems = [
     {
       title: "Java Basics & Data Types",
+<<<<<<< HEAD
       desc: "Understand variables, data types, operators, memory handling, and Java's type safety features.",
     },
     {
@@ -51,6 +52,46 @@ const JavaProgramming = () => {
       title: "Final Mini Project",
       desc: "Build a complete desktop app (e.g., inventory system) integrating GUI and database.",
     },
+=======
+      desc: "Understand variables, data types, operators, memory handling, and Java's type safety features."
+    },
+    {
+      title: "Loops & Conditions",
+      desc: "Control program flow using if-else, switch cases, and various loop constructs (for, while, do-while)."
+    },
+    {
+      title: "Arrays & Strings",
+      desc: "Manipulate arrays and strings using Java’s built-in classes and methods efficiently."
+    },
+    {
+      title: "OOP Concepts",
+      desc: "Implement Object-Oriented principles such as classes, objects, inheritance, and abstraction."
+    },
+    {
+      title: "Exception Handling",
+      desc: "Use try-catch-finally blocks to handle errors and create custom exception classes."
+    },
+    {
+      title: "Collections Framework",
+      desc: "Work with Lists, Sets, Maps using ArrayList, HashMap, TreeSet and learn when to use each."
+    },
+    {
+      title: "File I/O & Streams",
+      desc: "Read/write data using InputStream/OutputStream, and handle files with FileReader/Writer."
+    },
+    {
+      title: "GUI with Java Swing",
+      desc: "Build user interfaces using JFrame, JButton, JTextField, JTable and event handling."
+    },
+    {
+      title: "JDBC + MySQL Integration",
+      desc: "Perform CRUD operations and transactions in Java applications using JDBC and MySQL."
+    },
+    {
+      title: "Final Mini Project",
+      desc: "Build a complete desktop app (e.g., inventory system) integrating GUI and database."
+    }
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
   ];
 
   return (
@@ -71,6 +112,7 @@ const JavaProgramming = () => {
       </div>
 
       {/* Overview */}
+<<<<<<< HEAD
       <div className="container mb-5">
         <h2 className="fw-bold text-center mb-4" data-aos="fade-up">
           Course Overview
@@ -182,6 +224,136 @@ const JavaProgramming = () => {
         <h2 className="fw-bold text-center mb-4" data-aos="fade-up">
           Course Details
         </h2>
+=======
+     <div className="container mb-5">
+  <h2 className="fw-bold text-center mb-4" data-aos="fade-up">Course Overview</h2>
+
+  {/* Java Syntax & Control Flow */}
+  <div className="row g-4 mb-4 align-items-center">
+    <div className="col-md-6" data-aos="fade-right">
+      <img
+<<<<<<< HEAD
+        src="https://e0.pxfuel.com/wallpapers/226/1020/desktop-wallpaper-java-programming-logo.jpg"
+=======
+        src="https://img.freepik.com/free-photo/computer-code-abstract-technology-background_53876-104941.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+        alt="Java Syntax"
+        className="img-fluid shadow"
+        style={{ borderRadius: "20px 0 20px 0" }} // top-left and bottom-right rounded
+      />
+    </div>
+    <div className="col-md-6" data-aos="fade-left">
+      <div className="card p-4 border-0 shadow hover-card">
+        <h5 className="fw-bold mb-3">Java Syntax & Control Flow</h5>
+        <p className="fs-5 mb-0">
+          Learn the building blocks of Java including variables, data types, loops, conditionals, and the structure of Java programs.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* OOP Concepts */}
+  <div className="row g-4 mb-4 align-items-center flex-md-row-reverse">
+    <div className="col-md-6" data-aos="fade-left">
+      <img
+<<<<<<< HEAD
+        src="https://c4.wallpaperflare.com/wallpaper/92/845/277/code-java-programming-life-hd-wallpaper-preview.jpg"
+=======
+        src="https://img.freepik.com/free-photo/artificial-intelligence-concept-with-robot_23-2149278189.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+        alt="OOP Concepts"
+        className="img-fluid shadow"
+        style={{ borderRadius: "0 30px 0 30px" }} // top-right and bottom-left rounded
+      />
+    </div>
+    <div className="col-md-6" data-aos="fade-right">
+      <div className="card p-4 border-0 shadow hover-card">
+        <h5 className="fw-bold mb-3">OOP: Inheritance, Polymorphism</h5>
+        <p className="fs-5 mb-0">
+          Dive deep into object-oriented programming including classes, objects, encapsulation, inheritance, and polymorphism.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* Collections & File I/O */}
+  <div className="row g-4 mb-4 align-items-center">
+    <div className="col-md-6" data-aos="fade-right">
+      <img
+<<<<<<< HEAD
+        src="https://static.vecteezy.com/system/resources/thumbnails/003/665/736/small_2x/business-man-pushing-on-a-touch-screen-interface-java-programming-concept-virtual-machine-photo.jpg"
+=======
+        src="https://img.freepik.com/free-photo/technology-background-concept-circuit-board-processor_53876-120602.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+        alt="Collections and File IO"
+        className="img-fluid shadow"
+        style={{ borderRadius: "15px" }} // fully rounded with 15px
+      />
+    </div>
+    <div className="col-md-6" data-aos="fade-left">
+      <div className="card p-4 border-0 shadow hover-card">
+        <h5 className="fw-bold mb-3">Collections & File I/O</h5>
+        <p className="fs-5 mb-0">
+          Explore Java’s powerful collection framework (List, Map, Set) and learn how to read/write files using streams.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* GUI with Swing */}
+  <div className="row g-4 mb-4 align-items-center flex-md-row-reverse">
+    <div className="col-md-6" data-aos="fade-left">
+      <img
+<<<<<<< HEAD
+        src="https://img2.wallspic.com/crops/8/0/3/3/6/163308/163308-java-graphic_design-logo-text-graphics-3840x2160.png"
+=======
+        src="https://img.freepik.com/free-photo/laptop-with-code-screen-desk_23-2147981738.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+        alt="Swing GUI"
+        className="img-fluid shadow"
+        style={{ borderRadius: "40px 10px 40px 10px" }} // alternating large round corners
+      />
+    </div>
+    <div className="col-md-6" data-aos="fade-right">
+      <div className="card p-4 border-0 shadow hover-card">
+        <h5 className="fw-bold mb-3">GUI with Swing</h5>
+        <p className="fs-5 mb-0">
+          Build interactive user interfaces using Java Swing components like JFrame, JPanel, JButton, JTextField, and more.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* JDBC & MySQL Projects */}
+  <div className="row g-4 align-items-center">
+    <div className="col-md-6" data-aos="fade-right">
+      <img
+<<<<<<< HEAD
+        src="https://wallpapers.com/images/hd/4k-programming-java-script-texts-u67z4l5ov7cdbp4v.jpg"
+=======
+        src="https://img.freepik.com/free-photo/database-technology-background_53876-110423.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+        alt="JDBC and MySQL"
+        className="img-fluid shadow"
+        style={{ borderRadius: "0px 0px 50px 50px" }} // only bottom corners rounded
+      />
+    </div>
+    <div className="col-md-6" data-aos="fade-left">
+      <div className="card p-4 border-0 shadow hover-card">
+        <h5 className="fw-bold mb-3">JDBC & MySQL Projects</h5>
+        <p className="fs-5 mb-0">
+          Connect your Java applications with MySQL using JDBC and work on real-world projects like student management and billing systems.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      {/* Course Details */}
+      <div className="container mb-5">
+        <h2 className="fw-bold text-center mb-4" data-aos="fade-up">Course Details</h2>
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
         <div className="row g-4 text-center">
           <div className="col-md-4" data-aos="zoom-in">
             <div className="card p-4 border-0 shadow hover-card">
@@ -209,9 +381,13 @@ const JavaProgramming = () => {
 
       {/* Syllabus Section */}
       <div className="container mb-5">
+<<<<<<< HEAD
         <h2 className="fw-bold text-center mb-4" data-aos="fade-up">
           What You’ll Learn
         </h2>
+=======
+        <h2 className="fw-bold text-center mb-4" data-aos="fade-up">What You’ll Learn</h2>
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
         <div className="row row-cols-1 row-cols-md-2 g-4">
           {syllabusItems.map((item, index) => (
             <div className="col" key={index} data-aos="fade-up">
@@ -228,9 +404,13 @@ const JavaProgramming = () => {
 
       {/* Instructor */}
       <div className="container mb-5">
+<<<<<<< HEAD
         <h2 className="fw-bold text-center mb-4" data-aos="fade-up">
           Meet Your Instructor
         </h2>
+=======
+        <h2 className="fw-bold text-center mb-4" data-aos="fade-up">Meet Your Instructor</h2>
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
         <div className="card text-center p-4 border-0 shadow hover-card" data-aos="flip-up">
           <img
             src="https://img.freepik.com/premium-photo/portrait-programmer-working-late-dark-office-with-multiple-computer-screens_236854-23178.jpg"

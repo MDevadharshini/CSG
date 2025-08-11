@@ -1,7 +1,21 @@
+<<<<<<< HEAD
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './CSS/About.css';
+=======
+<<<<<<< HEAD
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./CSS/About.css";
+=======
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import './CSS/About.css';
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 import TiltCard from "../SoftwareDevelopment/TiltCard";
 import {
   Users,
@@ -15,6 +29,15 @@ import {
 } from "lucide-react";
 import img1 from "../Img/img1.jpg"; // Adjust the path as necessary
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+const animations = ["flip", "blur-in", "bounce-up", "slide-rotate", "scale-fade"];
+
+
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 export default function AboutPage() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
@@ -59,6 +82,10 @@ export default function AboutPage() {
     },
   ];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
   return (
     <div className="fade-in-page">
       {/* Hero Section */}
@@ -70,6 +97,26 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+=======
+
+ 
+  return (
+    <div className="fade-in-page">
+      {/* Hero Section */}
+   <section className="bg-primary text-white py-5 text-center">
+  <div className="container">
+    <h1 className="display-4 fw-bold">About CSG Computer Education</h1>
+    <p className="lead mt-3">
+      Empowering students with cutting-edge technology education since 2014.
+    </p>
+  </div>
+</section>
+
+
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 
       {/* Our Story */}
       <section className="py-5">
@@ -98,8 +145,17 @@ export default function AboutPage() {
           <div className="row g-4">
             <div className="col-md-6" data-aos="flip-right">
               <TiltCard>
+<<<<<<< HEAD
                 <div className="card my-card border-primary">
                   <div className="card-body text-center">
+=======
+<<<<<<< HEAD
+                <div className="card my-card border-primary h-100 text-center">
+=======
+                <div className="card my-card border-primary">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+                  <div className="card-body">
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                     <h3 className="card-title text-primary">
                       <Target className="me-2" /> Our Vision
                     </h3>
@@ -112,8 +168,17 @@ export default function AboutPage() {
             </div>
             <div className="col-md-6" data-aos="flip-left">
               <TiltCard>
+<<<<<<< HEAD
                 <div className="card my-card border-success">
                   <div className="card-body text-center">
+=======
+<<<<<<< HEAD
+                <div className="card my-card border-success h-100 text-center">
+=======
+                <div className="card my-card border-success">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+                  <div className="card-body">
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                     <h3 className="card-title text-success">
                       <BookOpen className="me-2" /> Our Mission
                     </h3>
@@ -135,10 +200,23 @@ export default function AboutPage() {
           <p className="mb-5 text-muted">Milestones that reflect our commitment to excellence</p>
           <div className="row">
             {achievements.map((a, i) => (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
               <div key={i} className="col-md-6 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay={i * 100}>
                 <TiltCard>
                   <div className="card tilt-card h-100 my-card text-center">
                     <div className="card-body">
+<<<<<<< HEAD
+=======
+=======
+              <div key={i} className="col-md-6 col-lg-3 mb-4" data-aos="zoom-in">
+                <TiltCard>
+                  <div className="card tilt-card h-100">
+                    <div className="card-body text-center">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                       <a.icon size={40} className="text-primary mb-3" />
                       <h5 className="card-title">{a.title}</h5>
                       <p className="text-muted">{a.description}</p>
@@ -158,9 +236,21 @@ export default function AboutPage() {
           <p className="mb-5 text-muted">Learn from industry professionals with years of experience</p>
           <div className="row">
             {faculty.map((member, index) => (
+<<<<<<< HEAD
               <div key={index} className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay={index * 150}>
                 <TiltCard>
                   <div className="card h-100 text-center my-card">
+=======
+<<<<<<< HEAD
+              <div key={index} className="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay={index * 150}>
+                <TiltCard>
+                  <div className="card h-100 text-center my-card">
+=======
+              <div key={index} className="col-md-6 col-lg-3 mb-4" data-aos="fade-up">
+                <TiltCard>
+                  <div className="card h-100">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                     <img src={member.image} className="card-img-top rounded-circle p-3" alt={member.name} />
                     <div className="card-body">
                       <h5 className="card-title">{member.name}</h5>
@@ -199,9 +289,21 @@ export default function AboutPage() {
                 description: "Morning and evening batches available for everyone.",
               },
             ].map((item, index) => (
+<<<<<<< HEAD
               <div key={index} className="col-md-4 mb-4" data-aos="flip-left" data-aos-delay={index * 150}>
                 <TiltCard>
                   <div className="card h-100 text-center my-card">
+=======
+<<<<<<< HEAD
+              <div key={index} className="col-md-4 mb-4" data-aos="flip-left" data-aos-delay={index * 150}>
+                <TiltCard>
+                  <div className="card h-100 text-center my-card">
+=======
+              <div key={index} className="col-md-4 mb-4" data-aos="flip-left">
+                <TiltCard>
+                  <div className="card h-100 text-center">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                     <div className="card-body">
                       <item.icon size={32} className="text-primary mb-3" />
                       <h5>{item.title}</h5>
@@ -215,6 +317,12 @@ export default function AboutPage() {
         </div>
       </section>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
       {/* Contact */}
       <section className="py-5 bg-primary text-white text-center" data-aos="fade-up">
         <div className="container">
@@ -239,6 +347,10 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
     </div>
   );
 }

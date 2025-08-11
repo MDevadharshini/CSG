@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,9 +13,17 @@ export default function Features() {
     AOS.init({ duration: 800, once: true });
   }, []);
 
+<<<<<<< HEAD
 
 
 
+=======
+=======
+import { Monitor, BadgeIcon as Certificate, Users, Clock } from "lucide-react";
+
+export default function Features() {
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
   const features = [
     {
       icon: Monitor,
@@ -55,6 +67,23 @@ export default function Features() {
         {/* Features Grid */}
         <div className="row g-4">
           {features.map((feature, index) => (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            <div
+              className="col-12 col-md-6 col-lg-3"
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+            >
+              <div className="card feature-card border-0 p-4 h-100 shadow-sm text-dark">
+                <div className="icon-box mb-3 d-flex align-items-center justify-content-center">
+                  <feature.icon size={24} />
+                </div>
+                <h5 className="fw-semibold mb-2 feature-title">{feature.title}</h5>
+                <p className="text-muted small mb-0 feature-description">{feature.description}</p>
+=======
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
             <div className="col-12 col-md-6 col-lg-3" key={index}>
               <div className="bg-white p-4 rounded-4 shadow-sm h-100 hover-shadow transition">
                 <div className="bg-primary bg-opacity-10 text-primary rounded-3 d-flex align-items-center justify-content-center mb-3" style={{ width: "50px", height: "50px" }}>
@@ -62,12 +91,20 @@ export default function Features() {
                 </div>
                 <h5 className="fw-semibold text-dark mb-2">{feature.title}</h5>
                 <p className="text-muted small mb-0">{feature.description}</p>
+<<<<<<< HEAD
+=======
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
               </div>
             </div>
           ))}
         </div>
       </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 
       {/* CSS styles */}
       <style>{`
@@ -106,7 +143,12 @@ export default function Features() {
           color: white;
         }
       `}</style>
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
     </section>
   );
 }

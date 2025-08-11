@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
@@ -9,6 +13,15 @@ export default function PopularCourses() {
     AOS.init({ duration: 800, once: true });
   }, []);
 
+<<<<<<< HEAD
+=======
+=======
+import { Link } from "react-router-dom";
+import { Clock, Users, Star } from "lucide-react";
+
+export default function PopularCourses() {
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
   const popularCourses = [
     {
       id: "java",
@@ -49,7 +62,11 @@ export default function PopularCourses() {
     <section className="py-5 bg-white">
       <div className="container py-5">
         {/* Heading */}
+<<<<<<< HEAD
         <div className="text-center mb-5" data-aos="fade-up">
+=======
+        <div className="text-center mb-5">
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
           <h2 className="fw-bold fs-2 mb-3 text-dark">Popular Courses</h2>
           <p className="text-muted fs-5 mx-auto" style={{ maxWidth: "700px" }}>
             Explore our most sought-after courses that have helped hundreds of students build successful careers
@@ -58,6 +75,7 @@ export default function PopularCourses() {
 
         {/* Course Cards */}
         <div className="row g-4">
+<<<<<<< HEAD
           {popularCourses.map((course, index) => (
             <div
               className="col-12 col-md-6 col-lg-4"
@@ -66,6 +84,17 @@ export default function PopularCourses() {
               data-aos-delay={index * 100}
             >
               <div className="card popular-card h-100 border-0 p-0 shadow-sm text-dark transition">
+=======
+<<<<<<< HEAD
+          {popularCourses.map((course, index) => (
+            <div className="col-12 col-md-6 col-lg-4" key={course.id} data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="card popular-card h-100 border-0 p-0 shadow-sm text-dark transition">
+=======
+          {popularCourses.map((course) => (
+            <div className="col-12 col-md-6 col-lg-4" key={course.id}>
+              <div className="card h-100 shadow-sm border-0 hover-shadow transition">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                 {/* Course Image + Rating */}
                 <div className="position-relative">
                   <img
@@ -85,7 +114,15 @@ export default function PopularCourses() {
 
                 {/* Card Body */}
                 <div className="card-body border-bottom">
+<<<<<<< HEAD
                   <h5 className="card-title fw-semibold course-title">{course.name}</h5>
+=======
+<<<<<<< HEAD
+                  <h5 className="card-title fw-semibold course-title">{course.name}</h5>
+=======
+                  <h5 className="card-title fw-semibold text-dark">{course.name}</h5>
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                   <p className="card-text text-muted small">{course.description}</p>
                 </div>
 
@@ -103,7 +140,18 @@ export default function PopularCourses() {
 
                 {/* Button */}
                 <div className="card-body border-top">
+<<<<<<< HEAD
                   <Link to={`/courses/${course.id}`} className="btn btn-primary w-100">
+=======
+<<<<<<< HEAD
+                  <Link to={`/courses/${course.id}`} className="btn btn-primary w-100">
+=======
+                  <Link
+                    to={`/courses/${course.id}`}
+                    className="btn btn-primary w-100"
+                  >
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                     Learn More
                   </Link>
                 </div>
@@ -114,11 +162,26 @@ export default function PopularCourses() {
 
         {/* View All Button */}
         <div className="text-center mt-5">
+<<<<<<< HEAD
           <Link to="/courses" className="btn btn-outline-primary btn-lg fw-semibold">
+=======
+<<<<<<< HEAD
+          <Link to="/courses" className="btn btn-outline-primary btn-lg fw-semibold">
+=======
+          <Link
+            to="/courses"
+            className="btn btn-outline-primary btn-lg fw-semibold"
+          >
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
             View All Courses
           </Link>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
 
       {/* CSS styles */}
       <style>{`
@@ -128,15 +191,28 @@ export default function PopularCourses() {
           transition: all 0.3s ease;
           cursor: pointer;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
         .popular-card:hover {
           background-color: #0d6efd1a;
           transform: scale(1.03);
           box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
         .popular-card:hover .course-title {
           color: #0d6efd;
         }
       `}</style>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
     </section>
   );
 }

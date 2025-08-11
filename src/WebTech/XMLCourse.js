@@ -19,10 +19,18 @@ const XMLCourse = () => {
         <div className="row g-4">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
 
             
               src="https://img.freepik.com/free-photo/data-management-system-database-technology_53876-124661.jpg"
 
+=======
+<<<<<<< HEAD
+              src="https://media.istockphoto.com/id/1372390946/photo/xml-inscription-against-laptop-and-code-background.jpg?s=612x612&w=0&k=20&c=ur6qBQlYl3ylbOw8Bp1XG3JRCJXu5Lz91KzNx6DpjBA="
+=======
+              src="https://img.freepik.com/free-photo/data-management-system-database-technology_53876-124661.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
               alt="XML Programming"
               className="img-fluid rounded-4 shadow"
             />

@@ -22,7 +22,15 @@ const WebDesignCourse = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg"
+=======
+<<<<<<< HEAD
+              src="https://t4.ftcdn.net/jpg/02/83/46/33/360_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg"
+=======
+              src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
               alt="Web Design Overview"
               className="img-fluid rounded-4 shadow"
             />
@@ -69,7 +77,15 @@ const WebDesignCourse = () => {
           <div className="col-md-4" data-aos="flip-left">
             <div className="card shadow border-0">
               <img
+<<<<<<< HEAD
                 src="https://img.freepik.com/free-psd/landing-page-template-design_23-2149109510.jpg"
+=======
+<<<<<<< HEAD
+                src="https://tint.creativemarket.com/oqGLpyYAn1RZjWSPznhNiM_XLYnUDjtYpvRmU_q1krM/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzExNDgvMTE0ODgvMTE0ODgzNzgvcHJldmlldy0zLW8ucG5n?1639717712"
+=======
+                src="https://img.freepik.com/free-psd/landing-page-template-design_23-2149109510.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                 className="card-img-top rounded-top"
                 alt="Portfolio Site"
               />
@@ -82,7 +98,15 @@ const WebDesignCourse = () => {
           <div className="col-md-4" data-aos="flip-up">
             <div className="card shadow border-0">
               <img
+<<<<<<< HEAD
                 src="https://img.freepik.com/free-vector/ecommerce-landing-page_23-2148284976.jpg"
+=======
+<<<<<<< HEAD
+                src="https://img.freepik.com/free-photo/laptop-shopping-bags-online-shopping-concept_1423-189.jpg"
+=======
+                src="https://img.freepik.com/free-vector/ecommerce-landing-page_23-2148284976.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                 className="card-img-top rounded-top"
                 alt="E-Commerce Page"
               />
@@ -95,7 +119,15 @@ const WebDesignCourse = () => {
           <div className="col-md-4" data-aos="flip-right">
             <div className="card shadow border-0">
               <img
+<<<<<<< HEAD
                 src="https://img.freepik.com/free-psd/blog-website-template_23-2148813424.jpg"
+=======
+<<<<<<< HEAD
+                src="https://wallpapers.com/images/hd/blogging-backdrop-8ifwoxtwf7mdg268.jpg"
+=======
+                src="https://img.freepik.com/free-psd/blog-website-template_23-2148813424.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+>>>>>>> 687577e6dfded0f39cb0a95794994b1ad39d0be8
                 className="card-img-top rounded-top"
                 alt="Blog Design"
               />
