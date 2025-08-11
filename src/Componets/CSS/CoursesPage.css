@@ -1,0 +1,37 @@
+.course-box {
+  background-color: #f8f9fa;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.course-box:hover {
+  background-color: #e3f0ff;
+  color: #0d6efd;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+/* Show dropdown on click inside offcanvas */
+.offcanvas .dropdown-menu {
+  display: none;
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.offcanvas .dropdown-menu.show {
+  display: block;
+}
+
+.offcanvas .dropdown-toggle::after {
+  float: right;
+}
+
+
+
