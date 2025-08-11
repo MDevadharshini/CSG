@@ -1,0 +1,111 @@
+.loop-word {
+  display: inline-block;
+  opacity: 0;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+/* Flip */
+@keyframes flip {
+  from {
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+/* Blur In */
+@keyframes blur-in {
+  0% {
+    filter: blur(5px);
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bounce Up */
+@keyframes bounce-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide and Rotate */
+@keyframes slide-rotate {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px) rotate(-15deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+/* Scale and Fade */
+@keyframes scale-fade {
+  0% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Class bindings */
+.flip {
+  animation-name: flip;
+}
+.blur-in {
+  animation-name: blur-in;
+}
+.bounce-up {
+  animation-name: bounce-up;
+}
+.slide-rotate {
+  animation-name: slide-rotate;
+}
+.scale-fade {
+  animation-name: scale-fade;
+}
+.my-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.tilt-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.tilt-card:hover {
+  transform: scale(1.03);
+}

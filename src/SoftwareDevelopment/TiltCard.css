@@ -1,0 +1,62 @@
+.tilt-card {
+  perspective: 1000px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+  will-change: transform;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f7c6c6, #ffffff) !important;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.tilt-card:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #cef1f3, #c1fcf0, #f9eebf) !important;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Optional Shine */
+.tilt-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.4), transparent);
+  transform: rotate(25deg);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tilt-card:hover::before {
+  opacity: 1;
+  animation: shine 1.5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+
+
+
+.tilt-card {
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ffffff, #f0f8ff);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.tilt-card:hover {
+  background: linear-gradient(135deg, #dbeafe, #e0f2fe, #ede9fe);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
