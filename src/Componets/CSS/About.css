@@ -86,6 +86,7 @@
 .scale-fade {
   animation-name: scale-fade;
 }
+<<<<<<< HEAD
 .my-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -109,3 +110,5 @@
 .tilt-card:hover {
   transform: scale(1.03);
 }
+=======
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712

@@ -46,26 +46,41 @@ export default function Testimonials() {
   };
 
   useEffect(() => {
+<<<<<<< HEAD
     const interval = setInterval(nextTestimonial, 2000);
+=======
+    const interval = setInterval(nextTestimonial, 5000);
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
     return () => clearInterval(interval);
   }, []);
 
   return (
     <section className="py-5 bg-light">
       <div className="container py-5">
+<<<<<<< HEAD
         <div className="text-center mb-5" data-aos="fade-up">
+=======
+        {/* Heading */}
+        <div className="text-center mb-5">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
           <h2 className="fw-bold fs-2 mb-3 text-dark">What Our Students Say</h2>
           <p className="text-muted fs-5 mx-auto" style={{ maxWidth: "700px" }}>
             Hear from our successful graduates who have transformed their careers with CSG Computer Education
           </p>
         </div>
 
+<<<<<<< HEAD
         <div
           className="position-relative mx-auto testimonial-card"
           style={{ maxWidth: "850px" }}
           data-aos="fade-up"
         >
           <div className="bg-white shadow-lg rounded-4 p-4 transition testimonial-inner">
+=======
+        {/* Testimonial Card */}
+        <div className="position-relative mx-auto" style={{ maxWidth: "850px" }}>
+          <div className="bg-white shadow-lg rounded-4 p-4">
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
             <div className="row align-items-center g-4">
               <div className="col-12 col-md-auto text-center">
                 <img
@@ -101,7 +116,11 @@ export default function Testimonials() {
           {/* Navigation Buttons */}
           <button
             onClick={prevTestimonial}
+<<<<<<< HEAD
             className="btn btn-light border position-absolute top-50 start-0"
+=======
+            className="btn btn-light border position-absolute top-50 start-0 translate-middle-y"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
             style={{ transform: "translate(-50%, -50%)" }}
           >
             <ChevronLeft size={16} />
@@ -109,7 +128,11 @@ export default function Testimonials() {
 
           <button
             onClick={nextTestimonial}
+<<<<<<< HEAD
             className="btn btn-light border position-absolute top-50 end-0"
+=======
+            className="btn btn-light border position-absolute top-50 end-0 translate-middle-y"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
             style={{ transform: "translate(50%, -50%)" }}
           >
             <ChevronRight size={16} />
@@ -124,7 +147,11 @@ export default function Testimonials() {
                 className={`rounded-circle p-1 border-0 ${
                   index === currentIndex ? "bg-primary" : "bg-secondary"
                 }`}
+<<<<<<< HEAD
                 style={{ width: "10px", height: "10px", cursor: "pointer" }}
+=======
+                style={{ width: "10px", height: "10px" }}
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               ></button>
             ))}
           </div>

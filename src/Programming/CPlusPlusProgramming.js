@@ -26,7 +26,11 @@ const CPlusPlusProgramming = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://w0.peakpx.com/wallpaper/451/1006/HD-wallpaper-c-plus-plus-metal-logo-grunge-programming-language-signs-blue-metal-background-c-plus-plus-creative-programming-language-c-plus-plus-logo.jpg"
+=======
+              src="https://img.freepik.com/free-photo/digital-interface-concept_23-2148574533.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="C++ Course"
               className="img-fluid rounded shadow"
             />
@@ -77,7 +81,11 @@ const CPlusPlusProgramming = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://images.pexels.com/photos/941555/pexels-photo-941555.jpeg?cs=srgb&dl=pexels-olly-941555.jpg&fm=jpg"
+=======
+              src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901771.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="Bank Project"
               className="img-fluid rounded shadow"
             />

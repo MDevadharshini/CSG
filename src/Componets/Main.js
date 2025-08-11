@@ -96,7 +96,11 @@ const Main = () => {
        
      <Link to="/Html" >    <li className=" dropdown-item-3"><a  href="#"> HTML</a></li></Link>
         <Link to="/Xml"><li className=" dropdown-item-3"><a  href="#"> XML</a></li></Link>
+<<<<<<< HEAD
        <Link to="/internet"> <li className=" dropdown-item-3"><a  href="#">  Internet</a></li></Link>
+=======
+        <li className=" dropdown-item-3"><a  href="#">  Internet</a></li>
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
 
       </ul>
     </li>
@@ -124,6 +128,7 @@ const Main = () => {
  <li className="dropdown-submenu">
       <a className="dropdown-item dropdown-toggle" id="drop-two" href="#">Multimedia & Design</a>
       <ul className="dropdown-menu-5 dropdown-sub-right">
+<<<<<<< HEAD
                 <li className=" dropdown-item-5"><a  href="#"> 3D Animation</a></li>
         <li className=" dropdown-item-5"><a  href="#">  Adobe</a></li>
         <li className=" dropdown-item-5"><a  href="#"> Adobe Photoshop</a></li>
@@ -133,6 +138,15 @@ const Main = () => {
         <li className=" dropdown-item-5"><a  href="#"> DTP</a></li>
         <li className=" dropdown-item-5"><a  href="#"> Graphic Designing</a></li>
         <li className=" dropdown-item-5"><a  href="#"> Multimedia</a></li>
+=======
+                <Link to="/Animation"><li className=" dropdown-item-5"><a  href="#"> 3D Animation</a></li></Link>
+        <Link to="/Adobe"><li className=" dropdown-item-5"><a  href="#">  Adobe</a></li></Link>
+         <Link to="/Flash"><li className=" dropdown-item-5"><a  href="#"> Flash</a></li></Link>
+         <Link to="/CorelDRAW"><li className=" dropdown-item-5"><a  href="#"> CorelDRAW</a></li></Link>
+        <Link to="/DTP"><li className=" dropdown-item-5"><a  href="#"> DTP</a></li></Link> 
+        <Link to="/ Graphic Designing"><li className=" dropdown-item-5"><a  href="#"> Graphic Designing</a></li></Link> 
+         <Link to="/ Multimedia"><li className=" dropdown-item-5"><a  href="#"> Multimedia</a></li></Link>
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
 
 
       </ul>
@@ -141,12 +155,22 @@ const Main = () => {
      <li className="dropdown-submenu">
       <a className="dropdown-item dropdown-toggle" id="drop-two" href="#">Non-IT Courses</a>
       <ul className="dropdown-menu-6 dropdown-sub-right">
+<<<<<<< HEAD
         
         <Link to="/Accounting"><li className=" dropdown-item-6"><a  href="#">Accounting</a></li></Link>
         <Link to="/CAD"><li className=" dropdown-item-6"><a  href="#"> CAD</a></li></Link>
         <Link to="/MechanicalCad"> <li className=" dropdown-item-6"><a  href="#"> Mechanical Cad</a></li></Link>
         <Link to="/Tally"> <li className=" dropdown-item-6"><a  href="#"> Tally</a></li></Link>
         <Link to="/Typing"><li className=" dropdown-item-6"><a  href="#"> Typing</a></li></Link>
+=======
+                <li className=" dropdown-item-6"><a  href="#">Accounting</a></li>
+        <li className=" dropdown-item-6"><a  href="#"> CAD</a></li>
+        <li className=" dropdown-item-6"><a  href="#"> Mechanical Cad</a></li>
+        <li className=" dropdown-item-6"><a  href="#"> Tally</a></li>
+
+
+        <li className=" dropdown-item-6"><a  href="#"> Typing</a></li>
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
       
 
 

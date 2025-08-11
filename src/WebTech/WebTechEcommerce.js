@@ -22,7 +22,11 @@ const WebTechEcommerce = () => {
         <div className="row align-items-center mb-5">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://t4.ftcdn.net/jpg/07/64/55/75/360_F_764557526_HlwV6rYpIxrfhrmlpTzl74INFoMmJs9Z.jpg"
+=======
+              src="https://img.freepik.com/free-photo/e-commerce-business-shopping-online-concept_53876-124654.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="E-Commerce"
               className="img-fluid rounded-4 shadow"
             />
@@ -108,7 +112,11 @@ const WebTechEcommerce = () => {
           </div>
           <div className="col-md-6" data-aos="fade-left">
             <img
+<<<<<<< HEAD
               src="https://t4.ftcdn.net/jpg/06/22/39/91/360_F_622399137_jlEDsEN0pUMZA6jMKShRoq2po69QBQXj.jpg"
+=======
+              src="https://img.freepik.com/free-photo/shopping-cart-graphic-commercial-icon_53876-120105.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="Real-Time Projects"
               className="img-fluid rounded-5 shadow"
             />

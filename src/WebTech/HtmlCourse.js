@@ -22,7 +22,11 @@ const HtmlCourse = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://w0.peakpx.com/wallpaper/492/652/HD-wallpaper-lines-of-html-codes.jpg"
+=======
+              src="https://img.freepik.com/free-vector/html5-programming-landing-page_23-2148815798.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="HTML Overview"
               className="img-fluid rounded-4 shadow"
             />

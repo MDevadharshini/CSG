@@ -26,7 +26,11 @@ const JavaProgramming = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://e0.pxfuel.com/wallpapers/226/1020/desktop-wallpaper-java-programming-logo.jpg"
+=======
+              src="https://img.freepik.com/free-photo/close-up-coding-man_23-2148882264.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="Java Course"
               className="img-fluid rounded shadow"
             />

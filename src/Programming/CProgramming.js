@@ -26,7 +26,11 @@ const CProgramming = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://media.istockphoto.com/id/1422787212/photo/c-sharp-programming-language-source-code-example-on-monitor-c-source-code.jpg?s=612x612&w=0&k=20&c=KPKcWSnMeFSd_BzU_A6Ag98qlr8VbErrYKPGshVcENY="
+=======
+              src="https://img.freepik.com/free-vector/abstract-program-code-background_23-2148814432.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="C Programming"
               className="img-fluid shadow"
               style={{ borderRadius: "40px 10px 40px 10px" }}
@@ -88,7 +92,11 @@ const CProgramming = () => {
         <div className="row g-4 align-items-center">
           <div className="col-md-6" data-aos="fade-left">
             <img
+<<<<<<< HEAD
               src="https://images.unsplash.com/photo-1572177812156-58036aae439c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D"
+=======
+              src="https://img.freepik.com/premium-photo/computer-programming-coding-software-development-concept_34629-300.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="C Project"
               className="img-fluid shadow"
               style={{ borderRadius: "10px 50px 10px 50px" }}

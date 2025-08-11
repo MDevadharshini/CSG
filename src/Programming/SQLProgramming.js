@@ -20,7 +20,11 @@ const SQLProgramming = () => {
         <div className="row g-4">
           <div className="col-md-6" data-aos="fade-right">
             <img
+<<<<<<< HEAD
               src="https://img.freepik.com/free-vector/gradient-sql-illustration_23-2149247491.jpg"
+=======
+              src="https://img.freepik.com/free-photo/computer-software-coding-programming_53876-125114.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
               alt="SQL Programming"
               className="img-fluid shadow"
               style={{ borderRadius: "25px" }}

@@ -78,7 +78,11 @@ const JavaProgramming = () => {
   <div className="row g-4 mb-4 align-items-center">
     <div className="col-md-6" data-aos="fade-right">
       <img
+<<<<<<< HEAD
         src="https://e0.pxfuel.com/wallpapers/226/1020/desktop-wallpaper-java-programming-logo.jpg"
+=======
+        src="https://img.freepik.com/free-photo/computer-code-abstract-technology-background_53876-104941.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
         alt="Java Syntax"
         className="img-fluid shadow"
         style={{ borderRadius: "20px 0 20px 0" }} // top-left and bottom-right rounded
@@ -98,7 +102,11 @@ const JavaProgramming = () => {
   <div className="row g-4 mb-4 align-items-center flex-md-row-reverse">
     <div className="col-md-6" data-aos="fade-left">
       <img
+<<<<<<< HEAD
         src="https://c4.wallpaperflare.com/wallpaper/92/845/277/code-java-programming-life-hd-wallpaper-preview.jpg"
+=======
+        src="https://img.freepik.com/free-photo/artificial-intelligence-concept-with-robot_23-2149278189.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
         alt="OOP Concepts"
         className="img-fluid shadow"
         style={{ borderRadius: "0 30px 0 30px" }} // top-right and bottom-left rounded
@@ -118,7 +126,11 @@ const JavaProgramming = () => {
   <div className="row g-4 mb-4 align-items-center">
     <div className="col-md-6" data-aos="fade-right">
       <img
+<<<<<<< HEAD
         src="https://static.vecteezy.com/system/resources/thumbnails/003/665/736/small_2x/business-man-pushing-on-a-touch-screen-interface-java-programming-concept-virtual-machine-photo.jpg"
+=======
+        src="https://img.freepik.com/free-photo/technology-background-concept-circuit-board-processor_53876-120602.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
         alt="Collections and File IO"
         className="img-fluid shadow"
         style={{ borderRadius: "15px" }} // fully rounded with 15px
@@ -138,7 +150,11 @@ const JavaProgramming = () => {
   <div className="row g-4 mb-4 align-items-center flex-md-row-reverse">
     <div className="col-md-6" data-aos="fade-left">
       <img
+<<<<<<< HEAD
         src="https://img2.wallspic.com/crops/8/0/3/3/6/163308/163308-java-graphic_design-logo-text-graphics-3840x2160.png"
+=======
+        src="https://img.freepik.com/free-photo/laptop-with-code-screen-desk_23-2147981738.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
         alt="Swing GUI"
         className="img-fluid shadow"
         style={{ borderRadius: "40px 10px 40px 10px" }} // alternating large round corners
@@ -158,7 +174,11 @@ const JavaProgramming = () => {
   <div className="row g-4 align-items-center">
     <div className="col-md-6" data-aos="fade-right">
       <img
+<<<<<<< HEAD
         src="https://wallpapers.com/images/hd/4k-programming-java-script-texts-u67z4l5ov7cdbp4v.jpg"
+=======
+        src="https://img.freepik.com/free-photo/database-technology-background_53876-110423.jpg"
+>>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
         alt="JDBC and MySQL"
         className="img-fluid shadow"
         style={{ borderRadius: "0px 0px 50px 50px" }} // only bottom corners rounded
