@@ -1,0 +1,31 @@
+.hero-section {
+  animation-duration: 1.2s;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section img {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+
+.hero-section {
+  animation-duration: 1.2s;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section img {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
