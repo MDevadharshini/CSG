@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
 .fade-in-page {
   animation: fadeIn 0.8s ease-in-out;
-=======
-<<<<<<< HEAD
+}
 .App {
   text-align: center;
->>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+
 }
 
 @keyframes fadeIn {
@@ -18,9 +17,7 @@
     transform: translateY(0);
   }
 }
-<<<<<<< HEAD
-=======
-=======
+
 .fade-in-page {
   animation: fadeIn 0.8s ease-in-out;
 }
@@ -35,7 +32,7 @@
     transform: translateY(0);
   }
 }
->>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
+
 
 .learn-item {
   transition: all 0.3s ease;
@@ -128,7 +125,7 @@
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-<<<<<<< HEAD
+
 .testimonial-card {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -161,7 +158,3 @@
       width: 38%;
   }
 }
-=======
-
->>>>>>> 230bbfc (first commit)
->>>>>>> 82e58eaae33b21f108ab9e81c7ffbb6e6bfec712
